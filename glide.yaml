@@ -1,0 +1,5 @@
+package: github.com/sklevenz/cf2go
+import:
+- package: github.com/olekukonko/tablewriter
+- package: gopkg.in/alecthomas/kingpin.v2
+  version: ^2.2.3

@@ -1,0 +1,20 @@
+{
+  "land-1": {
+    "type": "t1",
+    "description": "Test Landscape 1",
+    "owner": "team1",
+    "jumpbox": "10.10.10.10",
+    "concourse": "10.10.10.11",
+    "director": "10.10.10.12",
+    "domain": "landscape1.cloud.io"
+  },
+  "land-2": {
+    "type": "t2",
+    "description": "Test Landscape 2",
+    "owner": "team2",
+    "jumpbox": "10.10.10.14",
+    "concourse": "10.10.10.15",
+    "director": "10.10.10.16",
+    "domain": "landscape2.cloud.io"
+  }
+}
