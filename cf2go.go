@@ -243,7 +243,7 @@ func readConfiguration() string {
 
 func main() {
 	app.Version("0.1." + REVISION).Author("Stephan Klevenz")
-	kingpin.CommandLine.HelpFlag.Short('h') // not working
+	app.HelpFlag.Short('h')
 
 	listCommand := &listCommandStruct{}
 	list.Action(listCommand.run)
